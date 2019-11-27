@@ -1,0 +1,46 @@
+/*CSS Styles*/
+
+#logo {
+    margin: auto;
+    padding-top: 98px;
+    width: 276px;
+}
+
+#google {
+    margin: auto;
+    width: 272px;
+}
+.searchbox {
+    text-align: center;
+    margin: auto;
+    width: 700px;
+    height: 200px;
+    padding-top: 30px;
+}
+
+#sb {
+    font-size: 16px;
+    height: 38px;
+    width: 500px;
+    border: 1px solid #dddddd;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: none;
+}
+
+.btn {
+    font-size: 14px;
+    margin: 27px 10px;
+    width: 130px;
+    height: 36px;
+    color: #5F6368;
+    border: none;   
+    background-color: white;
+}
+
+.btn:hover {
+    color: #000;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
