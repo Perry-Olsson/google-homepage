@@ -1,8 +1,11 @@
 /*CSS Styles*/
 
+/* LOGO */
+
 #logo {
     margin: auto;
-    padding-top: 98px;
+    padding-top: 135px;
+    padding-left: 2px;
     width: 276px;
 }
 
@@ -10,23 +13,37 @@
     margin: auto;
     width: 272px;
 }
-.searchbox {
+
+/* FORM */
+
+.frm {
     text-align: center;
     margin: auto;
     width: 700px;
     height: 200px;
-    padding-top: 30px;
+    padding-top: 25px;
 }
 
-#sb {
+.searchbox {
+    position: relative;
+}
+
+.searchbox input { 
+    margin-left: 3px;
+    padding-left: 45px;
+    padding-right: 45px;
     font-size: 16px;
-    height: 38px;
-    width: 500px;
+    height: 43px;
+    width: 490px;
     border: 1px solid #dddddd;
     border-radius: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
     outline: none;
+}
+
+.searchbox img{
+    position: relative;
+    left: 36px;
+    top: 3px;
 }
 
 .btn {
@@ -44,3 +61,61 @@
     border: 1px solid #aaa;
     border-radius: 4px;
 }
+
+#mic {
+    position: relative;
+    left: -38px;
+    top: 7px;
+    display: inline-block;
+}
+
+/* NAVBAR/FOOTER */
+
+#nav {
+    height: 25px;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 17px;
+}
+
+li {
+    padding-right: 18px;
+    float: left;
+}
+li, li a {
+    display: inline;
+    color: #444;
+    font: 13px arial, sans-serif;
+    text-decoration: none;
+}
+ li a:hover {
+    text-decoration: underline;
+ }
+
+.nav-right, .footer-right{
+    float: right;
+}
+
+#footer li a {
+    color: #676767;
+}
+
+#footer li {
+    padding-right: 27px;
+}
+
+#ft-ctr{
+    height: 37px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+#ft-ctr ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 9px 3px 0px 30px;
+}
+
