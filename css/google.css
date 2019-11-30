@@ -20,12 +20,8 @@
     text-align: center;
     margin: auto;
     width: 700px;
-    height: 200px;
+    height: 150px;
     padding-top: 25px;
-}
-
-.searchbox {
-    position: relative;
 }
 
 .searchbox input { 
@@ -82,13 +78,15 @@ li {
     padding-right: 18px;
     float: left;
 }
+
 li, li a {
     display: inline;
     color: #444;
     font: 13px arial, sans-serif;
     text-decoration: none;
 }
- li a:hover {
+
+li a:hover {
     text-decoration: underline;
  }
 
